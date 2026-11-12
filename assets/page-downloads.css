@@ -2,9 +2,9 @@
 :root{--accent:#00ffcc;--surface:rgba(15,17,23,.82);--line:rgba(255,255,255,.1)}
 html{background:#000!important}
 body{background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
-body>*:not(#aether-world){position:relative;z-index:1}
+nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2}
 body>div.fixed{opacity:.18}
-body>div.relative{max-width:1400px!important;padding-top:36px!important}
+body>div.relative{max-width:1400px!important;padding-top:36px!important;z-index:2}
 header{background:rgba(15,17,23,.72)!important;border:1px solid var(--line)!important;border-radius:18px;padding:24px!important;backdrop-filter:blur(18px)}
 header h1{font-size:clamp(25px,3vw,38px)!important;letter-spacing:-.06em!important}
 main{gap:22px!important}
