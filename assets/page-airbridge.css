@@ -1,7 +1,7 @@
 /* AIRBRIDGE — bespoke landing-page visual treatment */
 :root{--bg:#000;--bg2:#08090b;--surface:rgba(15,17,23,.78);--surface2:rgba(22,26,34,.92);--text:#f3f4f6;--muted:#8d929b;--dim:#555b65;--line:rgba(255,255,255,.09);--line2:rgba(255,255,255,.18);--accent:#00ffcc;--accent2:#38bdf8}
 body{background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
-body>*:not(#aether-world){position:relative;z-index:1}
+nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2}
 .nav{background:rgba(0,0,0,.58);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
 .hero{min-height:100vh;background:radial-gradient(ellipse at 75% 42%,rgba(0,255,204,.08),transparent 42%)}
 .hero:after{background:radial-gradient(circle,rgba(0,255,204,.13),rgba(0,255,204,.025) 38%,transparent 72%)}
