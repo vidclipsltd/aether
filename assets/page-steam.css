@@ -1,0 +1,21 @@
+/* STEAM — bespoke dashboard redesign */
+:root{--bg:#000;--surface:rgba(15,17,23,.78);--line:rgba(255,255,255,.1);--accent:#00ffcc}
+body{min-height:100vh!important;margin:0!important;padding:112px 28px 56px!important;background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
+body>*:not(#aether-world){position:relative;z-index:1}
+body:before{content:"AETHER / STEAM  •  SHARED GLOBAL DASHBOARD";display:block;max-width:1400px;margin:0 auto 16px;color:#00ffcc;font:11px 'DM Mono',monospace;letter-spacing:.18em}
+header{max-width:1400px;margin:0 auto 48px!important;padding:44px 0 36px;border-bottom:1px solid var(--line);text-align:left!important}
+header h1{font-size:clamp(48px,7vw,100px);line-height:.94;letter-spacing:-.075em;color:#f3f4f6!important;font-weight:600}
+header p{color:#9299a3!important;font-size:16px}
+.container{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px!important;max-width:1400px!important}
+.column{min-height:420px;padding:34px!important;border:1px solid var(--line)!important;border-radius:18px!important;background:rgba(15,17,23,.78)!important;backdrop-filter:blur(18px);box-shadow:0 25px 80px rgba(0,0,0,.28)!important}
+h2{color:#f3f4f6!important;font-size:clamp(24px,3vw,34px);letter-spacing:-.05em;border-bottom:1px solid var(--line)!important}
+label{color:#b9c0c9!important;font:11px 'DM Mono',monospace!important;text-transform:uppercase;letter-spacing:.1em}
+input,textarea{background:rgba(0,0,0,.5)!important;color:#f3f4f6!important;border:1px solid rgba(255,255,255,.15)!important;border-radius:10px!important;padding:14px!important}
+input:focus,textarea:focus{outline:none;border-color:#00ffcc!important;box-shadow:0 0 0 3px rgba(0,255,204,.1)}
+.btn-add{background:#00ffcc!important;color:#000!important;border-radius:100px!important;font:12px 'JetBrains Mono',monospace!important;text-transform:uppercase;letter-spacing:.08em;padding:16px!important}
+.btn-add:hover{background:#38bdf8!important}
+.data-list{max-height:560px!important}
+.data-card{background:rgba(255,255,255,.035)!important;border:1px solid var(--line)!important;border-left:2px solid #00ffcc!important;border-radius:12px!important;padding:20px!important}
+.card-metrics{color:#00ffcc!important;font:11px 'DM Mono',monospace!important}
+.card-note{color:#b1b7c0!important}
+@media(max-width:800px){body{padding:92px 17px 32px!important}.container{grid-template-columns:1fr!important}header{margin-bottom:28px!important}}
