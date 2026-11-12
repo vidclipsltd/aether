@@ -1,0 +1,20 @@
+/* VIDCLIPS — bespoke AI product page styling */
+:root{--bg-obsidian:#000!important;--bg-zinc:#111419!important;--accent-blue:#00ffcc!important;--accent-purple:#38bdf8!important;--text-primary:#f3f4f6!important;--text-secondary:#9aa1ab!important;--gradient-accent:linear-gradient(135deg,#00ffcc 0%,#38bdf8 100%)!important;--gradient-glow:radial-gradient(circle at center,rgba(0,255,204,.13),transparent 70%)!important;--font-main:Inter,Arial,sans-serif!important;--border-radius:14px!important}
+body{background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
+body>*:not(#aether-world){position:relative;z-index:1}
+header{background:rgba(0,0,0,.72)!important;border-bottom:1px solid rgba(255,255,255,.1)!important;backdrop-filter:blur(18px)!important}
+.hero{background:radial-gradient(ellipse at 70% 42%,rgba(0,255,204,.09),transparent 48%)!important}
+.hero-bg{opacity:.5!important}
+.hero-overlay{background:linear-gradient(90deg,#000 0%,rgba(0,0,0,.78) 48%,rgba(0,0,0,.18) 100%)!important}
+h1,h2,h3,h4{font-family:Inter,Arial,sans-serif!important;letter-spacing:-.055em!important}
+h1{font-size:clamp(54px,8vw,118px)!important;line-height:.95!important}
+.text-accent,.mono-label{color:#00ffcc!important}
+.btn-primary{background:#00ffcc!important;color:#000!important;border-color:#00ffcc!important}
+.btn-primary:hover{background:#38bdf8!important;border-color:#38bdf8!important}
+.btn-outline{border-color:rgba(255,255,255,.22)!important;background:rgba(15,17,23,.7)!important}
+.platform,.features{background:transparent!important}
+.platform-image-wrapper,.tech-spec-list,.feature-card{background:rgba(15,17,23,.76)!important;border:1px solid rgba(255,255,255,.1)!important;border-radius:18px!important;backdrop-filter:blur(16px)}
+.feature-card{padding:28px!important}
+.feature-card:hover{border-color:rgba(0,255,204,.45)!important;transform:translateY(-5px)}
+.features-texture{opacity:.12!important}
+.footer-content{border-color:rgba(255,255,255,.1)!important}
