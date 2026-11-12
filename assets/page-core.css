@@ -17,3 +17,5 @@ nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2
 .feature-icon,.feature-number,.spec-label{color:#00ffcc!important}
 .final-cta{background:radial-gradient(ellipse at 50% 50%,rgba(0,255,204,.09),transparent 65%)}
 a:hover{color:#00ffcc}
+
+.container,main,footer,.hero,.section{position:relative;z-index:2}
