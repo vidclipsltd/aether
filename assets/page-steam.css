@@ -19,3 +19,6 @@ input:focus,textarea:focus{outline:none;border-color:#00ffcc!important;box-shado
 .card-metrics{color:#00ffcc!important;font:11px 'DM Mono',monospace!important}
 .card-note{color:#b1b7c0!important}
 @media(max-width:800px){body{padding:92px 17px 32px!important}.container{grid-template-columns:1fr!important}header{margin-bottom:28px!important}}
+
+.container,main,footer,.hero,.section{position:relative;z-index:2}
+header{position:relative;z-index:2}
