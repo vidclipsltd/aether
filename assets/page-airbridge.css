@@ -1,0 +1,23 @@
+/* AIRBRIDGE — bespoke landing-page visual treatment */
+:root{--bg:#000;--bg2:#08090b;--surface:rgba(15,17,23,.78);--surface2:rgba(22,26,34,.92);--text:#f3f4f6;--muted:#8d929b;--dim:#555b65;--line:rgba(255,255,255,.09);--line2:rgba(255,255,255,.18);--accent:#00ffcc;--accent2:#38bdf8}
+body{background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
+nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2}
+.nav{background:rgba(0,0,0,.58);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.hero{min-height:100vh;background:radial-gradient(ellipse at 75% 42%,rgba(0,255,204,.08),transparent 42%)}
+.hero:after{background:radial-gradient(circle,rgba(0,255,204,.13),rgba(0,255,204,.025) 38%,transparent 72%)}
+h1{font-size:clamp(64px,9vw,142px);letter-spacing:-.085em}
+h1 .second,.section-title em{color:#9299a3}
+.hero-art{filter:drop-shadow(0 0 55px rgba(0,255,204,.13))}
+.orbit{border-color:rgba(0,255,204,.4);box-shadow:0 0 35px rgba(0,255,204,.04)}
+.orbit.two{border-color:rgba(56,189,248,.35)}
+.logo-tile{background:linear-gradient(145deg,rgba(0,255,204,.2),rgba(15,17,23,.94) 70%);border-color:rgba(0,255,204,.3);box-shadow:0 30px 100px rgba(0,0,0,.55),0 0 55px rgba(0,255,204,.08)}
+.button.primary{background:#00ffcc;border-color:#00ffcc;color:#000}
+.button.primary:hover,.pill:hover{background:#38bdf8;color:#000;border-color:#38bdf8}
+.card,.step,.callout{background:rgba(15,17,23,.72);backdrop-filter:blur(14px);border-color:var(--line)}
+.card:hover{border-color:rgba(0,255,204,.55);box-shadow:0 22px 60px rgba(0,0,0,.32)}
+.card-icon{border-color:rgba(0,255,204,.4);color:#00ffcc}
+.step{background:linear-gradient(145deg,rgba(0,255,204,.07),rgba(15,17,23,.68))}
+.callout{background:radial-gradient(circle at 90% 10%,rgba(0,255,204,.13),transparent 38%),rgba(15,17,23,.8);border-color:rgba(0,255,204,.28)}
+.footer{background:rgba(0,0,0,.25)}
+
+.container,main,footer,.hero,.section{position:relative;z-index:2}

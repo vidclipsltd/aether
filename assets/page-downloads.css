@@ -1,0 +1,22 @@
+/* AETHER DRIVE — bespoke app dashboard styling */
+:root{--accent:#00ffcc;--surface:rgba(15,17,23,.82);--line:rgba(255,255,255,.1)}
+html{background:#000!important}
+body{background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
+nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2}
+body>div.fixed{opacity:.18}
+body>div.relative{max-width:1400px!important;padding-top:36px!important;z-index:2}
+header{background:rgba(15,17,23,.72)!important;border:1px solid var(--line)!important;border-radius:18px;padding:24px!important;backdrop-filter:blur(18px)}
+header h1{font-size:clamp(25px,3vw,38px)!important;letter-spacing:-.06em!important}
+main{gap:22px!important}
+.glass-panel,.glass-input{background:rgba(15,17,23,.78)!important;border:1px solid var(--line)!important;backdrop-filter:blur(16px)}
+.glass-panel{border-radius:18px!important;box-shadow:0 24px 70px rgba(0,0,0,.25)!important}
+.glass-panel h2{font-family:Inter,Arial,sans-serif!important;letter-spacing:-.04em!important}
+button{border-radius:100px!important}
+button.bg-brand-600{background:#00ffcc!important;color:#000!important}
+button.bg-brand-600:hover{background:#38bdf8!important}
+input,textarea,select{border-radius:10px!important}
+.text-brand-500,.text-brand-400,.text-brand-600{color:#00ffcc!important}
+.bg-brand-500,.bg-brand-600,.from-brand-500{background-color:#00ffcc!important}
+.border-brand-500,.border-brand-500\/20{border-color:rgba(0,255,204,.35)!important}
+
+.container,main,footer,.hero,.section{position:relative;z-index:2}

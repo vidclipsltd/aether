@@ -1,0 +1,21 @@
+/* CORE — bespoke product landing-page finish */
+:root{--accent:#00ffcc;--accent2:#38bdf8;--bg:#000;--bg2:#08090b;--surface:rgba(15,17,23,.78);--line:rgba(255,255,255,.1)}
+body{background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
+nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2}
+.nav{background:rgba(0,0,0,.5);backdrop-filter:blur(18px);border-bottom:1px solid transparent}
+.nav.scrolled{background:rgba(0,0,0,.86)!important}
+.hero{background:radial-gradient(ellipse at 50% 38%,rgba(0,255,204,.09),transparent 48%)}
+.hero-title{font-size:clamp(64px,9vw,142px);letter-spacing:-.085em}
+.hero-title .accent-word,.accent,.features-title .accent,.requirements-title .accent,.accent-word{color:#00ffcc!important}
+.hero-badge{border-color:rgba(0,255,204,.25);background:rgba(0,255,204,.035)}
+.download-btn{background:#00ffcc!important;color:#000!important;box-shadow:0 12px 44px rgba(0,255,204,.16)}
+.download-btn:hover{background:#38bdf8!important;box-shadow:0 20px 60px rgba(0,255,204,.2)}
+.browser-preview,.feature-card,.spec-list,.faq-item{background:rgba(15,17,23,.75)!important;border-color:var(--line)!important;backdrop-filter:blur(16px)}
+.browser-bar{background:rgba(0,0,0,.55)!important}
+.browser-content{background:linear-gradient(135deg,rgba(0,255,204,.06),rgba(15,17,23,.88))!important}
+.feature-card:hover{border-color:rgba(0,255,204,.5)!important;box-shadow:0 24px 60px rgba(0,0,0,.3)}
+.feature-icon,.feature-number,.spec-label{color:#00ffcc!important}
+.final-cta{background:radial-gradient(ellipse at 50% 50%,rgba(0,255,204,.09),transparent 65%)}
+a:hover{color:#00ffcc}
+
+.container,main,footer,.hero,.section{position:relative;z-index:2}
