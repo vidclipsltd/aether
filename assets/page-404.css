@@ -1,0 +1,8 @@
+/* 404 — cinematic landing-page treatment */
+body{background:#000!important;color:#f3f4f6!important}
+body>*:not(#aether-world){position:relative;z-index:1}
+.not-found-section{background:radial-gradient(ellipse at 50% 48%,rgba(0,255,204,.08),transparent 52%)}
+.error-code{background:linear-gradient(135deg,#f3f4f6 25%,#00ffcc 75%);-webkit-background-clip:text}
+.error-title{letter-spacing:-.055em}
+.button{border-radius:100px}
+.button:hover{background:#00ffcc;color:#000}
