@@ -6,3 +6,5 @@ nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2
 .error-title{letter-spacing:-.055em}
 .button{border-radius:100px}
 .button:hover{background:#00ffcc;color:#000}
+
+.container,main,footer,.hero,.section{position:relative;z-index:2}
