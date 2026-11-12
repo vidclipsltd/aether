@@ -15,3 +15,5 @@ nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2
 .eco-tag{border-color:var(--line)!important;background:rgba(255,255,255,.035)!important}
 .synergy{background:linear-gradient(180deg,rgba(0,255,204,.025),rgba(0,0,0,.1))!important}
 .manifesto-text .accent-word{color:#00ffcc!important}
+
+.container,main,footer,.hero,.section{position:relative;z-index:2}
