@@ -18,3 +18,5 @@ input,textarea,select{border-radius:10px!important}
 .text-brand-500,.text-brand-400,.text-brand-600{color:#00ffcc!important}
 .bg-brand-500,.bg-brand-600,.from-brand-500{background-color:#00ffcc!important}
 .border-brand-500,.border-brand-500\/20{border-color:rgba(0,255,204,.35)!important}
+
+.container,main,footer,.hero,.section{position:relative;z-index:2}
