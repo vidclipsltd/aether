@@ -1,0 +1,17 @@
+/* ECOSYSTEM — bespoke landing-page visual language */
+:root{--bg:#000;--bg2:#08090b;--surface:rgba(15,17,23,.78);--surface2:rgba(22,26,34,.92);--line:rgba(255,255,255,.1);--line2:rgba(255,255,255,.18);--accent:#00ffcc;--accent2:#38bdf8}
+body{background:#000!important;color:#f3f4f6!important}
+body>*:not(#aether-world){position:relative;z-index:1}
+.nav{background:rgba(0,0,0,.5);backdrop-filter:blur(18px)}
+.nav.scrolled{background:rgba(0,0,0,.86)!important}
+.hero{background:radial-gradient(ellipse at 50% 38%,rgba(0,255,204,.08),transparent 48%)}
+.hero-title{font-size:clamp(58px,8.5vw,132px);letter-spacing:-.085em}
+.accent,.accent-word,.eco-link{color:#00ffcc!important}
+.button.primary{background:#00ffcc!important;border-color:#00ffcc!important;color:#000!important}
+.button.primary:hover{background:#38bdf8!important;border-color:#38bdf8!important}
+.eco-card,.flow-node{background:rgba(15,17,23,.76)!important;border-color:var(--line)!important;backdrop-filter:blur(16px)}
+.eco-card:hover{border-color:rgba(0,255,204,.55)!important;box-shadow:0 24px 60px rgba(0,0,0,.34)}
+.eco-icon{background:rgba(0,255,204,.06)!important;border-color:rgba(0,255,204,.22)!important}
+.eco-tag{border-color:var(--line)!important;background:rgba(255,255,255,.035)!important}
+.synergy{background:linear-gradient(180deg,rgba(0,255,204,.025),rgba(0,0,0,.1))!important}
+.manifesto-text .accent-word{color:#00ffcc!important}
