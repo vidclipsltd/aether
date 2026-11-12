@@ -1,7 +1,7 @@
 /* VIDCLIPS — bespoke AI product page styling */
 :root{--bg-obsidian:#000!important;--bg-zinc:#111419!important;--accent-blue:#00ffcc!important;--accent-purple:#38bdf8!important;--text-primary:#f3f4f6!important;--text-secondary:#9aa1ab!important;--gradient-accent:linear-gradient(135deg,#00ffcc 0%,#38bdf8 100%)!important;--gradient-glow:radial-gradient(circle at center,rgba(0,255,204,.13),transparent 70%)!important;--font-main:Inter,Arial,sans-serif!important;--border-radius:14px!important}
 body{background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
-body>*:not(#aether-world){position:relative;z-index:1}
+nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2}
 header{background:rgba(0,0,0,.72)!important;border-bottom:1px solid rgba(255,255,255,.1)!important;backdrop-filter:blur(18px)!important}
 .hero{background:radial-gradient(ellipse at 70% 42%,rgba(0,255,204,.09),transparent 48%)!important}
 .hero-bg{opacity:.5!important}
