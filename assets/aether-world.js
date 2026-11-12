@@ -29,6 +29,7 @@
       else if(t<.8){shapeC[i]=4+(Math.random()-.5)*1.5;shapeC[i+1]=12-t*20+(Math.random()-.5);shapeC[i+2]=(Math.random()-.5)*3}
       else{shapeC[i]=(Math.random()-.5)*6;shapeC[i+1]=(Math.random()-.5)*1.5;shapeC[i+2]=(Math.random()-.5)*3}
     }
+    const basePositions=positions.slice();
     geometry.setAttribute('position',new THREE.BufferAttribute(positions,3));
     const material=new THREE.PointsMaterial({color:0x00ffcc,size:innerWidth<700?.15:.12,transparent:true,opacity:.78,blending:THREE.AdditiveBlending,depthWrite:false});
     const cloud=new THREE.Points(geometry,material);scene.add(cloud);
@@ -48,7 +49,7 @@
       const out=attr.array;
       for(let i=0;i<count;i++){
         const j=i*3;let a,b,c,p;
-        if(progress<.33){p=progress/.33;a=positions[j];b=shapeA[j];c=shapeA[j+1];out[j]=a+(b-a)*p;out[j+1]=positions[j+1]+(c-positions[j+1])*p;out[j+2]=positions[j+2]+(shapeA[j+2]-positions[j+2])*p}
+        if(progress<.33){p=progress/.33;a=basePositions[j];b=shapeA[j];c=shapeA[j+1];out[j]=a+(b-a)*p;out[j+1]=basePositions[j+1]+(c-basePositions[j+1])*p;out[j+2]=basePositions[j+2]+(shapeA[j+2]-basePositions[j+2])*p}
         else if(progress<.66){p=(progress-.33)/.33;out[j]=shapeA[j]+(shapeB[j]-shapeA[j])*p;out[j+1]=shapeA[j+1]+(shapeB[j+1]-shapeA[j+1])*p;out[j+2]=shapeA[j+2]+(shapeB[j+2]-shapeA[j+2])*p}
         else{p=(progress-.66)/.34;out[j]=shapeB[j]+(shapeC[j]-shapeB[j])*p;out[j+1]=shapeB[j+1]+(shapeC[j+1]-shapeB[j+1])*p;out[j+2]=shapeB[j+2]+(shapeC[j+2]-shapeB[j+2])*p}
         out[j]+=(Math.sin(time+i)*.04);out[j+1]+=(Math.cos(time+i)*.04);
