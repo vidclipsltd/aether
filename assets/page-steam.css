@@ -1,7 +1,7 @@
 /* STEAM — bespoke dashboard redesign */
 :root{--bg:#000;--surface:rgba(15,17,23,.78);--line:rgba(255,255,255,.1);--accent:#00ffcc}
 body{min-height:100vh!important;margin:0!important;padding:112px 28px 56px!important;background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
-body>*:not(#aether-world){position:relative;z-index:1}
+nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2}
 body:before{content:"AETHER / STEAM  •  SHARED GLOBAL DASHBOARD";display:block;max-width:1400px;margin:0 auto 16px;color:#00ffcc;font:11px 'DM Mono',monospace;letter-spacing:.18em}
 header{max-width:1400px;margin:0 auto 48px!important;padding:44px 0 36px;border-bottom:1px solid var(--line);text-align:left!important}
 header h1{font-size:clamp(48px,7vw,100px);line-height:.94;letter-spacing:-.075em;color:#f3f4f6!important;font-weight:600}
