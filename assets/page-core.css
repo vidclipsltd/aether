@@ -1,7 +1,7 @@
 /* CORE — bespoke product landing-page finish */
 :root{--accent:#00ffcc;--accent2:#38bdf8;--bg:#000;--bg2:#08090b;--surface:rgba(15,17,23,.78);--line:rgba(255,255,255,.1)}
 body{background:#000!important;color:#f3f4f6!important;font-family:Inter,Arial,sans-serif!important}
-body>*:not(#aether-world){position:relative;z-index:1}
+nav,header,.nav,.hero,.section,.container,main,footer,.content-wrapper{z-index:2}
 .nav{background:rgba(0,0,0,.5);backdrop-filter:blur(18px);border-bottom:1px solid transparent}
 .nav.scrolled{background:rgba(0,0,0,.86)!important}
 .hero{background:radial-gradient(ellipse at 50% 38%,rgba(0,255,204,.09),transparent 48%)}
