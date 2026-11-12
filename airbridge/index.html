@@ -81,6 +81,7 @@ h1 .second{display:block;color:#aeb2b9;font-weight:400;margin-top:10px}
 @media(max-width:550px){.container,.nav-inner{width:calc(100% - 34px)}.nav{height:65px}.nav-right .pill:first-child{display:none}h1{font-size:18vw}.hero-copy{font-size:14px}.section{padding:85px 0}.footer-top,.footer-bottom{flex-direction:column}.footer-links{gap:16px}.callout{padding:26px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 </style>
+<link rel="stylesheet" href="/assets/aether-theme.css">
 </head>
 <body>
 <nav class="nav" id="nav">
@@ -206,5 +207,6 @@ if (DOWNLOAD_URL && !DOWNLOAD_URL.includes("PASTE_YOUR_DIRECT_APK_DOWNLOAD_LINK_
 const nav=document.getElementById('nav');
 window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>30),{passive:true});
 </script>
+<script src="/assets/aether-motion.js" defer></script>
 </body>
 </html>
